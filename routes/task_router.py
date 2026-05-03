@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from database import SessionLocal
+from db import SessionLocal
 from models import Task
 from schemas import TaskSchema
 
